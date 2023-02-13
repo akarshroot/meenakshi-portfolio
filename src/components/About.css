@@ -1,0 +1,36 @@
+.about-bg-image {
+    width: calc(100vw - 16.5%);
+    height: 100vh;
+    background-image: url(../assets/2.png);
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    margin-left: -20px;
+    z-index: 0;
+}
+
+.about-bg-image-overlay {
+    width: calc(100%);
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    background-size: cover;
+    z-index: 0;
+}
+
+@media screen and (max-width: 995px) {
+    .about-bg-image {
+        width: calc(100% - 20%);
+        margin-left: -12.5px;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about-bg-image {
+        width: calc(100% - 5%);
+        margin-left: -12.5px;
+        height: 100vh;
+    }
+}

@@ -3,6 +3,7 @@ import { GrPrevious, GrNext } from 'react-icons/gr';
 import { BsLaptop } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
 import { todo1 } from '../assets/todo-1.png'
+import './MyWork.css'
 
 function MyWork() {
     return (

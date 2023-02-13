@@ -1,10 +1,15 @@
 import React, { Fragment } from 'react'
+import './About.css'
 
 function About() {
     return (
         <Fragment>
             <div className="col py-3 d-flex align-items-center about-image">
 
+                <div className='about-bg-image'>
+                    <div className='about-bg-image-overlay'>
+                    </div>
+                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
