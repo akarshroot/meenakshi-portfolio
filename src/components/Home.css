@@ -1,9 +1,14 @@
+.bg-reset {
+    z-index: -1;
+}
+
 .home-bg-image {
-    width: calc(100vw);
+    width: calc(100vw - 16.5%);
     height: 100vh;
     background-image: url(../assets/collage-1.png);
     position: absolute;
     background-size: cover;
+    background-position: center;
     margin-left: -20px;
     z-index: 0;
 }
@@ -19,4 +24,20 @@
 
 .home-hero {
     z-index: 10;
+}
+
+@media screen and (max-width: 995px) {
+    .home-bg-image {
+        width: calc(100% - 20%);
+        margin-left: -12.5px;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .home-bg-image {
+        width: calc(100% - 5%);
+        margin-left: -12.5px;
+        height: 100vh;
+    }
 }

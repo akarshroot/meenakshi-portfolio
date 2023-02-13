@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import {SiJavascript,SiOracle,SiNodedotjs,SiReact,SiHtml5,SiCss3,SiCplusplus,SiMongodb,SiExpress,SiZoom} from 'react-icons/si'
 import {FaAssistiveListeningSystems} from 'react-icons/fa'
+
 function Skills() {
   return (
     <Fragment>
