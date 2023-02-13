@@ -28,7 +28,7 @@
     .resume-bg-image {
         width: calc(100% - 20%);
         margin-left: -12.5px;
-        left: calc(20% - 10px);
+        /* left: calc(20% - 10px); */
         height: 100vh;
     }
 }
@@ -38,6 +38,6 @@
         width: calc(100% - 5%);
         margin-left: -12.5px;
         height: 100vh;
-        left: calc(5% - 10px);
+        left: 80px;
     }
 }
